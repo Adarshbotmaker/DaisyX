@@ -1,16 +1,16 @@
 # Here we define functions
 
 ## Essentials
-### Importing Pyrogram admin check
+### Importing Pyrogram admin check just join our channel @phantombotsupport_11
 ```python3
-from DaisyX.function.pluginhelpers import admins_only
+from phantom botsfunction.pluginhelpers import admins_only
 
 @admins_only
 ```
 
 ### Getting text from cmd
 ```python3
-from DaisyX.function.pluginhelpers import get_text
+from phantom bots.function.pluginhelpers import get_text
 
 async def hi(client,message):
   args = get_text(message)
@@ -18,7 +18,8 @@ async def hi(client,message):
 
 ### Edit or reply
 ```python3
-from DaisyX.function.pluginhelpers import edit_or_reply
+from phanton bots
+function.pluginhelpers import edit_or_reply
 
 async def hi(client,message):
   await edit_or_reply("Hi")
